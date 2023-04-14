@@ -306,7 +306,7 @@ body."
 
 (lsp-register-client
  (make-lsp-client :new-connection (lsp-stdio-connection 'lsp-julia--rls-command)
-                  :major-modes '(julia-mode ess-julia-mode)
+                  :major-modes '(julia-mode ess-julia-mode julia-ts-mode)
                   :server-id 'julia-ls
                   :multi-root t))
 
