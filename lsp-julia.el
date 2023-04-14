@@ -7,7 +7,7 @@
 ;;         Guido Kraemer <gdkrmr@users.noreply.github.com>
 ;; Maintainer: Guido Kraemer <gdkrmr@users.noreply.github.com>
 ;; Keywords: languages, tools
-;; Version: 0.7.0
+;; Version: 0.7.2
 ;; Package-Requires: ((emacs "25.1") (lsp-mode "6.3") (julia-mode "0.3"))
 ;; Keywords: languages, tools
 ;; URL: https://github.com/gdkrmr/lsp-julia
