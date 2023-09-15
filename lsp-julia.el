@@ -304,6 +304,7 @@ body."
     ("window/setStatusReady" .
      (lambda(w _p)))))
 
+(add-to-list 'lsp-language-id-configuration '(julia-ts-mode . "julia"))
 (lsp-register-client
  (make-lsp-client :new-connection (lsp-stdio-connection 'lsp-julia--rls-command)
                   :major-modes '(julia-mode ess-julia-mode julia-ts-mode)
